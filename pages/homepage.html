@@ -4,7 +4,6 @@
   <title>King-Cobra</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -13,16 +12,25 @@
 	
 	<!--Title icon-->
 	<link rel="shortcut icon" type="image" href="https://ya-webdesign.com/images250_/resident-evil-snake-png-5.png">
+    <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    grid-auto-flow: center;
+    width: 100%;
+    height: 10%;
+  }
+  </style>
 <body>
+
 <!-- Nav-Bar -->
 <nav class="navbar navbar-expand-sm bg-warning navbar-light">
-  <!-- Brand/logo -->
+  <!-- Brand -->
   <a class="navbar-brand" href="homepage.html"><img src="https://ya-webdesign.com/images250_/resident-evil-snake-png-5.png"width="50" height="42"></a>
 
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="../index.html"><b>Home</b></a>
+      <a class="nav-link" href="homepage.html"><b>Home</b></a>
     </li>
     <!-- Dropdown -->
     <li class="nav-item dropdown">
@@ -47,9 +55,8 @@
   
 <div class="container">
 </br>
-<div class="typewriter">
-<h1 Align="center" style="color:pimary"><b><i>Member Of KingCobra Group<img src="https://ya-webdesign.com/images250_/resident-evil-snake-png-5.png"width="60" height="50"></i></b></h1></br>
-</div>
+<h1 Align="center" style="color:pimary"><b><i><imkg src="https://ya-webdesign.com/images250_/resident-evil-snake-png-5.png"width="60" height="50">Member Of KingCobra Group<img src="https://ya-webdesign.com/images250_/resident-evil-snake-png-5.png"width="60" height="50"></i></b></h1></br>
+
   <!-- <h1 align="center"><i><b>Member Of KingCobra Group</b></i></h1> -->
   </br>
 </div>
@@ -138,14 +145,15 @@
 
 
 
-<div id="section1">
-<br>
-</div>
 
 
 
 
 
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+  <!-- Footer Elements -->
   <div class="container">
 
     <!--Grid row-->
@@ -156,22 +164,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="../img/masum.jpg" class="img-thumbnail"
-            alt="">
-          <a href="">
-            <div class="mask rgba-white-light"></div>
-          </a>
-        </div>
-
-      </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <div class="col-lg-2 col-md-12 mb-4">
-
-        <!--Image-->
-        <div class="view overlay z-depth-2-half">
-          <img src="../img/yogi.jpg"  class="img-thumbnail"
+          <img src="../img/masum.jpg" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -186,7 +179,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="../img/pradeep.jpg" class="img-thumbnail"
+          <img src="../img/yogi.jpg"  class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -201,7 +194,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="../img/kc.jpg" class="img-thumbnail"
+          <img src="../img/pradeep.jpg" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-light"></div>
@@ -216,7 +209,22 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="../img/suraj.jpg" class="img-thumbnail"
+          <img src="../img/kc.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="../img/suraj.jpg" class="img-fluid"
             alt="">
           <a href="">
             <div class="mask rgba-white-dark"></div>
@@ -231,7 +239,7 @@
 
         <!--Image-->
         <div class="view overlay z-depth-1-half">
-          <img src="../img/anurag.jpeg" class="img-thumbnail"
+          <img src="../img/anurag.jpeg" class="img-fluid"
             alt="Anurag">
           <a href="">
             <div class="mask rgba-blue-light"></div>
@@ -248,8 +256,8 @@
   <!-- Footer Elements -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">Copyright © 2020 :
-    <a href="#">KingCobra  All Right Reserved</a>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="#">KingCobra</a>
   </div>
   <!-- Copyright -->
 
@@ -258,4 +266,3 @@
 
 </body>
 </html>
-
